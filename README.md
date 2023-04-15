@@ -32,10 +32,10 @@ __Dataset Path Setteing__
           
  Where A contains images of first temporal image, B contains images of second temporal images, and label contains groundtruth maps.  
 
-__Traing and test Process__   
+__Traing,Test and Visualization Process__   
 
- python trainHCX.py  
- python test.py
+ python trainHCX.py   
+ python test.py 
  python Output_Results.py
 
 __Revised parameters__  
