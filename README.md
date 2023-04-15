@@ -74,9 +74,8 @@ python Output_Results.py
 ```
 ## Acknowledgments
  
- Our code is inspired and revised by [pytorch-MSPSNet](https://github.com/QingleGuo/MSPSNet-Change-Detection-TGRS).,[pytorch-SNUNet], Thanks  for their great work!!  
+ Our code is inspired and revised by [pytorch-MSPSNet](https://github.com/QingleGuo/MSPSNet-Change-Detection-TGRS).,[pytorch-SNUNet](https://github.com/likyoo/Siam-NestedUNet)., Thanks  for their great work!!  
 
-Our code is inspired by [pytorch-CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
 ## Reference  
 [1] C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, 
