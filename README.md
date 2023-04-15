@@ -7,7 +7,7 @@ The Pytorch implementation for:
 
 [14 Aril. 2023] Release the first version of the HANet
 
-##Dataset Download   
+## Dataset Download   
  LEVIR-CD：https://justchenhao.github.io/LEVIR/  
  
  WHU-CD：http://gpcv.whu.edu.cn/data/building_dataset.html
@@ -15,7 +15,7 @@ The Pytorch implementation for:
 
  Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it.  
 
-##Dataset Path Setteing
+## Dataset Path Setteing
  LEVIR-CD or WHU-CD  
      |—train  
           |   |—A  
@@ -32,16 +32,16 @@ The Pytorch implementation for:
           
  Where A contains images of first temporal image, B contains images of second temporal images, and label contains groundtruth maps.  
 
-##Traing,Test and Visualization Process   
+## Traing,Test and Visualization Process   
 
  python trainHCX.py   
  python test.py 
  python Output_Results.py
 
-##Revised parameters 
+## Revised parameters 
  You can revised related parameters in the "metadata.json" file.  
 
-##Requirement  
+### Requirement  
 
 -Pytorch 1.8.0  
 -torchvision 0.9.0  
@@ -52,7 +52,7 @@ The Pytorch implementation for:
 -Cudnn 11.3  
 
 
-##Citation 
+## Citation 
 
  If you use this code for your research, please cite our papers.  
 
@@ -70,13 +70,12 @@ The Pytorch implementation for:
 
 ```
 ## Acknowledgments
-##Acknowledgments  
-
+ 
  Our code is inspired and revised by [pytorch-MSPSNet](https://github.com/QingleGuo/MSPSNet-Change-Detection-TGRS).,[pytorch-SNUNet], Thanks  for their great work!!  
 
 Our code is inspired by [pytorch-CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
-##Reference  
+## Reference  
 [1] C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, 
 “HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images,” IEEE J. SEL. TOP. APPL.EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
 https://ieeexplore.ieee.org/abstract/document/10093022
@@ -85,4 +84,6 @@ https://ieeexplore.ieee.org/abstract/document/10093022
 
 [3]C. Wu et al., "Traffic Density Reduction Caused by City Lockdowns Across the World During the COVID-19 Epidemic: From the View of High-Resolution Remote Sensing Imagery," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 5180-5193, 2021, doi: 10.1109/JSTARS.2021.3078611.
 https://ieeexplore.ieee.org/abstract/document/9427164
+
+### Reference
 
