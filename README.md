@@ -5,6 +5,7 @@ The Pytorch implementation for:
  C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, 
 
 [14 Aril. 2023] Release the first version of the HANet
+![image-20230415](/picture/HANet.png)
 
 ### Requirement  
 ```bash
