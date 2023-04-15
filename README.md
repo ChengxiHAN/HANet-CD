@@ -6,8 +6,6 @@ The Pytorch implementation for:
 
 [14 Aril. 2023] Release the first version of the HANet
 ![image-20230415](/picture/HANet.png)
-![image-20230415](/picture/HANet-ExperimentResult.png)
-![image-20230415](/picture/PFBS-2.png)
 
 ### Requirement  
 ```bash
@@ -37,8 +35,8 @@ python Output_Results.py
  
  WHU-CD：http://gpcv.whu.edu.cn/data/building_dataset.html
 
-
- Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it.  
+ Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it. 
+ ![image-20230415](/picture/HANet-ExperimentResult.png)
 
 ## Dataset Path Setting
 ```
@@ -68,6 +66,7 @@ self.mean1, self.std1, self.mean2, self.std2 = [0.49069053, 0.44911194, 0.393019
 
 ## PFBS(Progressive Foreground-Balanced Sampling)
 you can set `Normal Train`,`Fixed-X`,`Linear-Y`,`Fixed-X Linear-Y` method in line 113-135 of `trainHCX.py` .You just need to choose one sampling method, and annotate the others, About 'X' and 'Y', you can set `epochs_threshold` number in `metadata.json`.
+![image-20230415](/picture/PFBS-2.png)
 ```bash
 #Normal Train：正常训练，确保dataloader的方式一样
 # train_loader.dataset.curr_num = len(train_loader.dataset)
