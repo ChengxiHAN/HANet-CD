@@ -1,7 +1,7 @@
 
 # HANet-Change-Detection :https://chengxihan.github.io/
 The Pytorch implementation for:
-HANET: A HIERARCHICAL ATTENTION NETWORK FOR CHANGE DETECTION WITH BI-TEMPORAL VERY-HIGH-RESOLUTION REMOTE SENSING IMAGES,” IEEE J. SEL. TOP. APPL. EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
+”HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images,” IEEE J. SEL. TOP. APPL. EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
  C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, 
  https://ieeexplore.ieee.org/abstract/document/10093022
 
@@ -75,7 +75,7 @@ __Acknowledgments__
 
 __Reference__  
 [1] C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, 
-“HANET: A HIERARCHICAL ATTENTION NETWORK FOR CHANGE DETECTION WITH BI-TEMPORAL VERY-HIGH-RESOLUTION REMOTE SENSING IMAGES,” IEEE J. SEL. TOP. APPL.EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
+“HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images,” IEEE J. SEL. TOP. APPL.EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
 https://ieeexplore.ieee.org/abstract/document/10093022
 
 [2] HCGMNET: A Hierarchical Change Guiding Map Network For Change Detection, https://doi.org/10.48550/arXiv.2302.10420
