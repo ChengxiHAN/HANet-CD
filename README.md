@@ -7,7 +7,7 @@ The Pytorch implementation for:
 [14 Aril. 2023] Release the first version of the HANet
 
 ### Requirement  
-
+```bash
 -Pytorch 1.8.0  
 -torchvision 0.9.0  
 -python 3.8  
@@ -15,6 +15,8 @@ The Pytorch implementation for:
 -tensorboardx 2.4  
 -Cuda 11.3.1  
 -Cudnn 11.3  
+```
+
 
 ## Revised parameters 
  You can revised related parameters in the `metadata.json` file.  
