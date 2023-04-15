@@ -7,6 +7,16 @@ The Pytorch implementation for:
 
 [14 Aril. 2023] Release the first version of the HANet
 
+### Requirement  
+
+-Pytorch 1.8.0  
+-torchvision 0.9.0  
+-python 3.8  
+-opencv-python  4.5.3.56  
+-tensorboardx 2.4  
+-Cuda 11.3.1  
+-Cudnn 11.3  
+
 ## Dataset Download   
  LEVIR-CD：https://justchenhao.github.io/LEVIR/  
  
@@ -44,15 +54,31 @@ python Output_Results.py
 ## Revised parameters 
  You can revised related parameters in the `metadata.json` file.  
 
-### Requirement  
-
--Pytorch 1.8.0  
--torchvision 0.9.0  
--python 3.8  
--opencv-python  4.5.3.56  
--tensorboardx 2.4  
--Cuda 11.3.1  
--Cudnn 11.3  
+## PFBS(Progressive Foreground-Balanced Sampling)
+you can set `Normal Train`,`Fixed-X`,`Linear-Y`,`Fixed-X Linear-Y` method in `trainHCX.py` 113 line as follows:
+```bash
+        #Normal Train：正常训练，确保dataloader的方式一样
+        # train_loader.dataset.curr_num = len(train_loader.dataset)
+        #Fixed-X:如固定的15个
+        if epoch < opt.epochs_threshold:
+            pass
+        else:  # 15
+            train_loader.dataset.curr_num=len(train_loader.dataset)
+        #Fixed-X Linear-Y：先固定，后增加，前10个是前景影像，然后线性增加10个，后是正常训练
+        # if epoch < opt.epochs_threshold:
+        #     pass
+        # elif epoch<opt.epochs_threshold+5:
+        #     train_loader.dataset.curr_num += add_per_epoch
+        # else:  # 20
+        #     train_loader.dataset.curr_num=len(train_loader.dataset)
+        # # Linear-Y：前20个线性增加
+        # if epoch == 0:
+        #     pass
+        # elif epoch < opt.epochs_threshold:  # 20
+        #     train_loader.dataset.curr_num += add_per_epoch
+        # else:
+        #     train_loader.dataset.curr_num = len(train_loader.dataset)
+```
 
 
 ## Citation 
