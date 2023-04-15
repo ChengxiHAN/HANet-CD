@@ -35,9 +35,11 @@ The Pytorch implementation for:
 
 ## Traing,Test and Visualization Process   
 
- python trainHCX.py   
- python test.py 
- python Output_Results.py
+```bash
+python trainHCX.py 
+python test.py 
+python Output_Results.py
+```
 
 ## Revised parameters 
  You can revised related parameters in the "metadata.json" file.  
