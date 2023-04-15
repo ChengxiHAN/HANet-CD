@@ -3,7 +3,7 @@
 The Pytorch implementation for:
 HANET: A HIERARCHICAL ATTENTION NETWORK FOR CHANGE DETECTION WITH BI-TEMPORAL VERY-HIGH-RESOLUTION REMOTE SENSING IMAGES,” IEEE J. SEL. TOP. APPL. EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
  C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, 
- https://ieeexplore.ieee.org/abstract/document/10093022/keywords#keywords
+ https://ieeexplore.ieee.org/abstract/document/10093022
 
 [14 Aril. 2023] Release the first version of the HANet
 
