@@ -42,7 +42,7 @@ python Output_Results.py
 ```
 
 ## Revised parameters 
- You can revised related parameters in the "metadata.json" file.  
+ You can revised related parameters in the `metadata.json` file.  
 
 ### Requirement  
 
@@ -74,7 +74,7 @@ python Output_Results.py
 ```
 ## Acknowledgments
  
- Our code is inspired and revised by [pytorch-MSPSNet](https://github.com/QingleGuo/MSPSNet-Change-Detection-TGRS).,[pytorch-SNUNet](https://github.com/likyoo/Siam-NestedUNet)., Thanks  for their great work!!  
+ Our code is inspired and revised by [pytorch-MSPSNet](https://github.com/QingleGuo/MSPSNet-Change-Detection-TGRS),[pytorch-SNUNet](https://github.com/likyoo/Siam-NestedUNet), Thanks  for their great work!!  
 
 
 ## Reference  
