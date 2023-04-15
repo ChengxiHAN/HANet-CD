@@ -63,7 +63,7 @@ self.mean1, self.std1, self.mean2, self.std2 = [0.49069053, 0.44911194, 0.393019
 ```
 
 ## PFBS(Progressive Foreground-Balanced Sampling)
-you can set `Normal Train`,`Fixed-X`,`Linear-Y`,`Fixed-X Linear-Y` method in line 113-135 of `trainHCX.py` .You just need to choose one sampling method, and annotate the others:
+you can set `Normal Train`,`Fixed-X`,`Linear-Y`,`Fixed-X Linear-Y` method in line 113-135 of `trainHCX.py` .You just need to choose one sampling method, and annotate the others, About 'X' and 'Y', you can set `epochs_threshold` number in `metadata.json`.
 ```bash
 #Normal Train：正常训练，确保dataloader的方式一样
 # train_loader.dataset.curr_num = len(train_loader.dataset)
