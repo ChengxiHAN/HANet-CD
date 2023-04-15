@@ -16,6 +16,7 @@ The Pytorch implementation for:
  Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it.  
 
 ## Dataset Path Setteing
+```
  LEVIR-CD or WHU-CD  
      |—train  
           |   |—A  
@@ -29,7 +30,7 @@ The Pytorch implementation for:
           |   |—A  
           |   |—B  
           |   |—lable
-          
+  ```        
  Where A contains images of first temporal image, B contains images of second temporal images, and label contains groundtruth maps.  
 
 ## Traing,Test and Visualization Process   
