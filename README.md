@@ -33,7 +33,7 @@ python Output_Results.py
 ## Dataset Download   
  LEVIR-CD：https://justchenhao.github.io/LEVIR/  
  
- WHU-CD：http://gpcv.whu.edu.cn/data/building_dataset.html
+ WHU-CD：http://gpcv.whu.edu.cn/data/building_dataset.html ,our paper split in [Baidu Disk](https://pan.baidu.com/s/16g3H1UsDMgqmXaVjiE319Q?pwd=6969),pwd:6969
 
  Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it. 
  ![image-20230415](/picture/HANet-ExperimentResult.png)
