@@ -18,15 +18,16 @@ __Dataset Path Setteing__
      |—train  
           |   |—A  
           |   |—B  
-          |   |—labl  
+          |   |—lable  
      |—val  
           |   |—A  
           |   |—B  
-          |   |—labl  
+          |   |—lable  
      |—test  
           |   |—A  
           |   |—B  
-          |   |—labl
+          |   |—lable
+          
  Where A contains images of first temporal image, B contains images of second temporal images, and label contains groundtruth maps.  
 
 __Traing and test Process__   
