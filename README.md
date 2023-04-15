@@ -6,6 +6,8 @@ The Pytorch implementation for:
 
 [14 Aril. 2023] Release the first version of the HANet
 ![image-20230415](/picture/HANet.png)
+![image-20230415](/picture/HANet-Experiment Result.png)
+![image-20230415](/picture/PFBS-2.png)
 
 ### Requirement  
 ```bash
