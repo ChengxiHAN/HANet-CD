@@ -30,6 +30,12 @@ python test.py
 python Output_Results.py
 ```
 
+## Test our trained model result  
+You can directly test our model by the our provied training weights in  `tmp/WHU,LEVIR,SYSU,and S2Looking `. And make sure the weight name is right. Of course, for different datasets, the `Dataset mean and std setting` is different.
+```bash
+path = opt.weight_dir+'final_epoch99.pt'
+```
+
 ## Dataset Download   
  LEVIR-CD：https://justchenhao.github.io/LEVIR/  
  
