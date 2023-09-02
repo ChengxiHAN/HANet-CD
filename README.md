@@ -2,7 +2,7 @@
 # HANet-Change-Detection :https://chengxihan.github.io/
 The Pytorch implementation for::gift::gift::gift:
 “[HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images](https://ieeexplore.ieee.org/abstract/document/10093022),” IEEE J. SEL. TOP. APPL. EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
- C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, :yum::yum::yum:
+ C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, yum::yum::yum:
 
 [14 Aril. 2023] Release the first version of the HANet
 ![image-20230415](/picture/HANet.png)
@@ -20,9 +20,9 @@ The Pytorch implementation for::gift::gift::gift:
 
 
 ## Revised parameters 
- You can revised related parameters in the `metadata.json` file.  
+ You can revise related parameters in the `metadata.json` file.  
  
-## Traing,Test and Visualization Process   
+## Training, Test and Visualization Process   
 
 ```bash
 python trainHCX.py 
@@ -31,7 +31,7 @@ python Output_Results.py
 ```
 
 ## Test our trained model result  
-You can directly test our model by the our provied training weights in  `tmp/WHU,LEVIR,SYSU,and S2Looking `. And make sure the weight name is right. Of course, for different datasets, the `Dataset mean and std setting` is different.
+You can directly test our model by our provided training weights in  `tmp/WHU, LEVIR, SYSU, and S2Looking `. And make sure the weight name is right. Of course, for different datasets, the `Dataset mean and std setting` is different.
 ```bash
 path = opt.weight_dir+'final_epoch99.pt'
 ```
@@ -50,17 +50,17 @@ path = opt.weight_dir+'final_epoch99.pt'
      |—train  
           |   |—A  
           |   |—B  
-          |   |—lable  
+          |   |—label  
      |—val  
           |   |—A  
           |   |—B  
-          |   |—lable  
+          |   |—label  
      |—test  
           |   |—A  
           |   |—B  
-          |   |—lable
+          |   |—label
   ```        
- Where A contains images of first temporal image, B contains images of second temporal images, and label contains groundtruth maps.  
+ Where A contains images of the first temporal image, B contains images of the second temporal images, and the label contains ground truth maps.  
 ## Dataset mean and std setting 
 We calculated mean and std for seven data sets in line 27-38 of `utils/datasetHCX` , you can use one directly and then annotate the others.
 ```bash
