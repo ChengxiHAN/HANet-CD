@@ -43,6 +43,8 @@ path = opt.weight_dir+'final_epoch99.pt'
 
  Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it. 
  ![image-20230415](/picture/HANet-ExperimentResult.png)
+ 
+ And also we provide all test results of our HANet in the HANetTestResult!!!! Download in HANetTestResult or [Baidu Disk]() 😋😋😋
 
 ## Dataset Path Setting
 ```
