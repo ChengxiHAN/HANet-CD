@@ -41,7 +41,8 @@ path = opt.weight_dir+'final_epoch99.pt'
  
  WHU-CD：http://gpcv.whu.edu.cn/data/building_dataset.html ,our paper split in [Baidu Disk](https://pan.baidu.com/s/16g3H1UsDMgqmXaVjiE319Q?pwd=6969),pwd:6969
 
- Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it. 
+ Note: Please crop the LEVIR dataset to a slice of 256×256 before training with it.
+ ![image-20230415](/picture/HANet-WHU-LEVIR.png)
  ![image-20230415](/picture/HANet-ExperimentResult.png)
  
  And also we provide all test results of our HANet in the HANetTestResult!!!! Download in HANetTestResult or [Baidu Disk](https://pan.baidu.com/s/1nwPYkqtUIKe90KZoT5VO-A?pwd=2023 ),pwd:2023 😋😋😋
