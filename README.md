@@ -4,6 +4,25 @@ The Pytorch implementation for::gift::gift::gift:
 “[HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images](https://ieeexplore.ieee.org/abstract/document/10093022),” IEEE J. SEL. TOP. APPL. EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
  C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, yum::yum::yum:
 
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-googlegz-cd)](https://paperswithcode.com/sota/change-detection-on-googlegz-cd?p=hanet-a-hierarchical-attention-network-for)
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-sysu-cd)](https://paperswithcode.com/sota/change-detection-on-sysu-cd?p=hanet-a-hierarchical-attention-network-for)
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-levir)](https://paperswithcode.com/sota/change-detection-on-levir?p=hanet-a-hierarchical-attention-network-for)
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-dsifn-cd)](https://paperswithcode.com/sota/change-detection-on-dsifn-cd?p=hanet-a-hierarchical-attention-network-for)
+
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-whu-cd)](https://paperswithcode.com/sota/change-detection-on-whu-cd?p=hanet-a-hierarchical-attention-network-for)
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=hanet-a-hierarchical-attention-network-for)
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-cdd-dataset-season-1)](https://paperswithcode.com/sota/change-detection-on-cdd-dataset-season-1?p=hanet-a-hierarchical-attention-network-for)
+
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hanet-a-hierarchical-attention-network-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=hanet-a-hierarchical-attention-network-for)
+ 
+
 [14 Aril. 2023] Release the first version of the HANet
 ![image-20230415](/picture/HANet.png)
 
