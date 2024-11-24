@@ -1,5 +1,6 @@
 
 # HANet-Change-Detection :https://chengxihan.github.io/
+You can still run HANet in the open-cd repository.  https://github.com/likyoo/open-cd
 The Pytorch implementation for::gift::gift::gift:
 “[HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images](https://ieeexplore.ieee.org/abstract/document/10093022),” IEEE J. SEL. TOP. APPL. EARTH OBS. REMOTE SENS., PP. 1–17, 2023, DOI: 10.1109/JSTARS.2023.3264802.
  C. HAN, C. WU, H. GUO, M. HU, AND H. CHEN, yum::yum::yum:
